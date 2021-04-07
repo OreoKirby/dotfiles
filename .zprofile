@@ -8,3 +8,7 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
+
+# Configure homebrew shell completion if using oh-my-zsh
+FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
