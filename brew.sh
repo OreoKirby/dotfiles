@@ -25,3 +25,6 @@ brew install gnu-sed --with-default-names
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
+
+# Install GnuPG to enable PGP-signing commits.
+brew install gnupg
