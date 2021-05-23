@@ -49,6 +49,7 @@ brew install git
 brew install git-lfs
 brew install htop
 brew install imagemagick
+brew install neofetch
 brew install tree
 
 # Install preferred casks.
