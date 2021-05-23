@@ -20,10 +20,10 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
-# Install GNU `sed`, overwriting the built-in `sed`.
+# Install GNU `sed`
 brew install gnu-sed
 
-# Install `wget` with IRI support.
+# Install `wget`
 brew install wget
 
 # Install GnuPG to enable PGP-signing commits.
