@@ -50,6 +50,8 @@ brew install tree
 
 # Install preferred casks.
 brew tap homebrew/cask-drivers
+brew tap AdoptOpenJDK/openjdk
+brew install adoptopenjdk8
 brew install atom
 brew install balenaetcher
 brew install bitwarden
