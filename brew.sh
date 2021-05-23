@@ -36,3 +36,11 @@ brew install openssh
 brew install screen
 brew install php
 brew install gmp
+
+# Install other useful binaries.
+brew install bat
+brew install git
+brew install git-lfs
+nrew install htop
+brew install imagemagick --with-webp
+brew install tree
