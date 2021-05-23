@@ -44,7 +44,7 @@ brew install gmp
 brew install bat
 brew install git
 brew install git-lfs
-nrew install htop
+brew install htop
 brew install imagemagick
 brew install tree
 
