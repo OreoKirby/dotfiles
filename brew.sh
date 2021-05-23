@@ -51,6 +51,7 @@ brew install tree
 # Install preferred casks.
 brew tap homebrew/cask-drivers
 brew install atom
+brew install balenaetcher
 brew install bitwarden
 brew install brave-browser
 brew install firefox
