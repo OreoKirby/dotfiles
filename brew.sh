@@ -44,3 +44,18 @@ brew install git-lfs
 nrew install htop
 brew install imagemagick
 brew install tree
+
+# Install preferred casks.
+brew tap homebrew/cask-drivers
+brew install atom
+brew install bitwarden
+brew install brave-browser
+brew install firefox
+brew install gimp
+brew install iterm2
+brew install jetbrains-toolbox
+brew install logitech-options
+brew install plex
+brew install private-internet-access
+brew install signal
+brew install slack
