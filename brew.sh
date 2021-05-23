@@ -62,3 +62,6 @@ brew install plex
 brew install private-internet-access
 brew install signal
 brew install slack
+
+# Remove outdated versions from the cellar.
+brew cleanup
