@@ -19,6 +19,11 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # First Boot                                                                  #
 ###############################################################################
 
+# If you enter your real name at the account setup process, be aware that your
+# computer's name and local hostname will comprise that name 
+# (e.g., John Appleseed's MacBook) and thus will appear on local networks and
+# in various preference files.
+
 # Set computer name
 sudo scutil --set ComputerName MacBook
 sudo scutil --set LocalHostName MacBook
