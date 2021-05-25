@@ -20,7 +20,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # If you enter your real name at the account setup process, be aware that your
-# computer's name and local hostname will comprise that name 
+# computer's name and local hostname will comprise that name
 # (e.g., John Appleseed's MacBook) and thus will appear on local networks and
 # in various preference files.
 
@@ -46,3 +46,16 @@ sudo pmset -a powernap 0
 sudo pmset -a standby 0
 sudo pmset -a standbydelay 0
 sudo pmset -a autopoweroff 0
+
+###############################################################################
+# Firewall                                                                    #
+###############################################################################
+
+# Enable the firewall with logging and stealth mode
+sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on
+sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setloggingmode on
+sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setstealthmode on
+
+# Prevent built-in and code-signed downloaded software from being whitelisted automatically
+sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setallowsigned off
+sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setallowsignedapp off
