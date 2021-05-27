@@ -120,3 +120,29 @@ sudo mdutil -E / > /dev/null
 # (after disabling any custom proxy or DNS settings).
 
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control.plist Active -bool false
+
+###############################################################################
+# Miscellaneous                                                               #
+###############################################################################
+
+# Set your screen to lock as soon as the screensaver starts:
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
+
+# Expose hidden files and Library folder in Finder:
+defaults write com.apple.finder AppleShowAllFiles -bool true
+chflags nohidden ~/Library
+
+# Show all filename extensions (so that "Evil.jpg.app" cannot masquerade easily).
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Don't default to saving documents to iCloud:
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+
+# Disable crash reporter (the dialog which appears after an application crashes and prompts to report the problem to Apple):
+defaults write com.apple.CrashReporter DialogType none
+
+# Disable Bonjour multicast advertisements
+sudo defaults write /Library/Preferences/com.apple.mDNSResponder.plist NoMulticastAdvertisements -bool YES
+
+# Disable Handoff and Bluetooth features, if they aren't necessary.
