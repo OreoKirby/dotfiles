@@ -53,8 +53,9 @@ brew install neofetch
 brew install tree
 
 # Install preferred casks.
-brew tap homebrew/cask-drivers
 brew tap AdoptOpenJDK/openjdk
+brew tap heroku/brew
+brew tap homebrew/cask-drivers
 brew install adoptopenjdk8
 brew install atom
 brew install balenaetcher
@@ -63,6 +64,7 @@ brew install brave-browser
 brew install firefox
 brew install freetube
 brew install gimp
+brew install heroku
 brew install iterm2
 brew install jetbrains-toolbox
 brew install logitech-options
