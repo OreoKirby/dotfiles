@@ -61,6 +61,7 @@ brew install balenaetcher
 brew install bitwarden
 brew install brave-browser
 brew install firefox
+brew install freetube
 brew install gimp
 brew install iterm2
 brew install jetbrains-toolbox
