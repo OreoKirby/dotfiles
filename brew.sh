@@ -53,6 +53,7 @@ brew install htop
 brew install httpd
 brew install imagemagick
 brew install jq
+brew install mat2
 brew install neofetch
 brew install tree
 
