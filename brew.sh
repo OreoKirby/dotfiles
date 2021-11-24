@@ -55,6 +55,7 @@ brew install imagemagick
 brew install jq
 brew install mat2
 brew install neofetch
+brew install node
 brew install tree
 
 # Install preferred casks.
