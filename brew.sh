@@ -46,6 +46,7 @@ brew install gmp
 # Install other useful binaries.
 brew install bat
 brew install exiftool
+brew install ffmpeg
 brew install git
 brew install git-lfs
 brew install htop
