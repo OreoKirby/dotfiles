@@ -52,6 +52,7 @@ brew install git-lfs
 brew install htop
 brew install httpd
 brew install imagemagick
+brew install jq
 brew install neofetch
 brew install tree
 
