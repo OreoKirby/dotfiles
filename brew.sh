@@ -58,6 +58,7 @@ brew install neofetch
 brew install node
 brew install shellcheck
 brew install tree
+brew install unar
 
 # Install preferred casks.
 brew tap AdoptOpenJDK/openjdk
