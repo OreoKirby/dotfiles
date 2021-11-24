@@ -80,6 +80,7 @@ brew install logitech-options
 brew install mongodb-community
 brew install plex
 brew install private-internet-access
+brew install protonvpn
 brew install signal
 brew install slack
 brew install vlc
