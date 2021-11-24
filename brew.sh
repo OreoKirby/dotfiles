@@ -50,6 +50,7 @@ brew install ffmpeg
 brew install git
 brew install git-lfs
 brew install htop
+brew install httpd
 brew install imagemagick
 brew install neofetch
 brew install tree
