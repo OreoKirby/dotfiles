@@ -64,6 +64,7 @@ brew install unar
 brew tap AdoptOpenJDK/openjdk
 brew tap heroku/brew
 brew tap homebrew/cask-drivers
+brew tap mongodb/brew
 brew install adoptopenjdk8
 brew install atom
 brew install balenaetcher
@@ -76,6 +77,7 @@ brew install heroku
 brew install iterm2
 brew install jetbrains-toolbox
 brew install logitech-options
+brew install mongodb-community
 brew install plex
 brew install private-internet-access
 brew install signal
